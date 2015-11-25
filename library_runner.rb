@@ -37,8 +37,6 @@ library.add_person(Person.new('Wilma'))
 library.add_person(Person.new('Barney'))
 library.add_person(Person.new('Betty'))
 
-#binding;pry''
-
 #------ lend book ------#
 
 library.lend("Wilma", "The Hobbit")
@@ -54,7 +52,6 @@ puts"--------------------------------------------------"
 
 library.return_book_to_library("Wilma", "The Hobbit")
 
-#binding.pry;''
 #------ list borrowed books ------#
 
 puts "Books out on loan: #{library.list_borrowed_books}"
@@ -63,6 +60,9 @@ puts"--------------------------------------------------"
 #------ find who has a book -----#
 
 
+#------ command line inputs ------#
+#library to lend a book
+#library to search for a book
 
 
 
